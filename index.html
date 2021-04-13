@@ -8,7 +8,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-
   </head>
   <body>
     <style>
@@ -26,9 +25,9 @@
         display: flex;
         background-color: #2251b2;
       }
-      h5{
-        margin-top:0px;
-        margin-bottom:4px;
+      h5 {
+        margin-top: 0px;
+        margin-bottom: 4px;
       }
       .contact {
         margin: auto;
@@ -66,28 +65,27 @@
         padding-bottom: 0px;
         color: rgb(221, 221, 221);
       }
-      .row{
-          justify-content: space-around;
-          flex-wrap: wrap;
-          display: flex;
+      .row {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        display: flex;
       }
-      .row-title{
-        margin-bottom:20px;
+      .row-title {
+        margin-bottom: 20px;
 
-          justify-content:flex-end;
-          flex-wrap: wrap;
-          display: flex;
-          color:white
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        display: flex;
+        color: white;
       }
-      .column{
+      .column {
         align-items: center;
         display: flex;
         flex-direction: column;
       }
-      a{
-          text-decoration: none;
-          color:black;
-
+      a {
+        text-decoration: none;
+        color: black;
       }
       .title-text h5 {
         font-size: 15px;
@@ -109,310 +107,385 @@
         flex-direction: column;
         width: 65%;
       }
-      .label{
-          font-weight: 700;
+      .label {
+        font-weight: 700;
       }
-      hr{
-        border:0px;
-          width: 80%;
-          height: 2px;
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-
+      hr {
+        border: 0px;
+        width: 80%;
+        height: 2px;
+        background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.75),
+          rgba(0, 0, 0, 0)
+        );
       }
       .about {
         margin-top: 120px;
       }
-      .resim{
-          display: none;
-          width: 100%;
+      .resim {
+        display: none;
+        width: 100%;
       }
-      .content{
-          background-color: rgb(255, 245, 233);
-          display: flex;
-         
+      .content {
+        background-color: rgb(255, 245, 233);
+        display: flex;
       }
-      .content p{
-        margin-top:0px;
-        margin-bottom:2px;
+      .content p {
+        margin-top: 0px;
+        margin-bottom: 2px;
       }
- 
-      .call{
+
+      .call {
         text-decoration: none;
-        color:white;
-        margin-top:15px;
-        font-size:15px;
-        border-right:1px solid;
+        color: white;
+        margin-top: 15px;
+        font-size: 15px;
+        border-right: 1px solid;
         margin-right: 10x;
         padding-right: 5px;
-       }
-       .mail{
+      }
+      .mail {
         text-decoration: none;
-        color:white;
-        margin-top:15px;
-         padding-left: 5px;
-         font-size:15px;
-         margin-right: 5px;
-       }
-      @media screen and (max-width:480px) {
-        .about{
-          margin-top:60px;
+        color: white;
+        margin-top: 15px;
+        padding-left: 5px;
+        font-size: 15px;
+        margin-right: 5px;
+      }
+      @media screen and (max-width: 480px) {
+        .about {
+          margin-top: 60px;
         }
-          .contact{
-              width: 100%;
-          }
-          .resim{
-            background-color: rgb(255, 245, 233);
+        .contact {
+          width: 100%;
+        }
+        .resim {
+          background-color: rgb(255, 245, 233);
 
-              display:block;
-          }
-          .resim img{
-            margin-left:0px;
-          }
-          .big-image{
-              display:none;
-            
-          }
-          .header{
-              flex-wrap:wrap;
-          }
-          .right{
-              width: 100%;
-              display: block;
-
-          }
-          .left{
-              width: 100%;
-              display: block;
-          }
-          .content{
-              flex-direction: column;
-          }
-     
+          display: block;
+        }
+        .resim img {
+          margin-left: 0px;
+        }
+        .big-image {
+          display: none;
+        }
+        .header {
+          flex-wrap: wrap;
+        }
+        .right {
+          width: 100%;
+          display: block;
+        }
+        .left {
+          width: 100%;
+          display: block;
+        }
+        .content {
+          flex-direction: column;
+        }
       }
     </style>
-      <div class="contact">
-        <div class="header">
+    <div class="contact">
+      <div class="header">
+        <img class="big-image" src="indir.png" />
 
-                <img class="big-image" src="indir.png" />
+        <div class="title">
+          <div class="title-text">
+            <h5>Full-Stack Geliştirici</h5>
+            <h2>FURKAN</h2>
+            <h2>YILDIRIM</h2>
+            <div class="row-title">
+              <a href="tel:538-030-1642" class="call"
+                >Ara <i class="fas fa-phone"></i
+              ></a>
 
-            
-
-          <div class="title">
-            <div class="title-text">
-              <h5>Full-Stack Geliştirici</h5>
-              <h2>FURKAN</h2>
-              <h2>YILDIRIM</h2>
-              <div class="row-title">
-<a href="tel:538-030-1642" class="call">Ara  <i class="fas fa-phone"></i></a> 
-
-  <a class="mail" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=furkan98yldrm@gmail.com" target="_blank">
-  Mail at
-  <i class="far fa-envelope"></i> </a> </div>
+              <a
+                class="mail"
+                href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=furkan98yldrm@gmail.com"
+                target="_blank"
+              >
+                Mail at
+                <i class="far fa-envelope"></i>
+              </a>
             </div>
           </div>
         </div>
-        <div class="resim">
-            <img src="indir.png" style="width:200px ;height:200px"/>
-            
-
-        </div>
-        <div class="content">
-           
-            <div class="left">
-                <div class="about">
-                  <h3>Hakkımda</h3>
-                  <p style="padding:5px; font-size:15px">
-                      Yeni teknolojilerle çalışmayı seven hem arka tarafta hemde ön tarafta geliştirmeler yapan bir  Web developer adayıyım
-                  </p>
-                </div>
-                <hr>
-
-                <div>
-                    <h3>Yabancı Diller</h3>
-                    <p>
-                        İngilizce <i class="fas fa-star"></i>
-
-                        <i class="fas fa-star"></i>
-
-                        <i class="fas fa-star"></i>
-
-                        <i class="fas fa-star"></i>
-
-                        <i class="far fa-star"></i>
-
-
-
-                    </p>
-                    <p>
-                      Almanca <i class="fas fa-star"></i>
-
-                      <i class="far fa-star"></i>
-
-                      <i class="far fa-star"></i>
-                      <i class="far fa-star"></i>
-
-
-                      <i class="far fa-star"></i>
-
-
-
-                  </p>
-                  <hr>
-                    <h3>Hesaplar</h3>
-                    <p>
-                      GitHub <span> <i class="fas fa-eye"></i>
-
-                      </span>
-                    </p>
-                    <p>
-                      HackerRank <span><i class="fas fa-eye"></i>
-
-                      </span>
-                    </p>
-                    <p>
-                      Linkedin <i class="fas fa-eye"></i>
-
-
-                    </p>
-                    <hr>
-                    <h3>Sertifikalar</h3>
-                    <p>
-                      GitHub <span> <i class="fas fa-eye"></i>
-
-                      </span>
-                    </p>
-                    <p>
-                      HackerRank <span><i class="fas fa-eye"></i>
-
-                      </span>
-                    </p>
-                    <p>
-                      Linkedin <i class="fas fa-eye"></i>
-
-
-                    </p>
-     </div>
-              </div>
-            <div class="right">
-                <h3>İletişim</h3>
-
-                <div class="row">
-                    <p><span class="label"> Tel:</span> +90 555-55-55</p>
-<p><span class="label">Mail:</span> furkan98yldrm@gmail.com</p>
-                </div>
-<hr>
-
-<h3> Eğitim</h3>
-<div class="row">
-    <p>Bilgisayar Mühendisliği-İstanbul Üniversitesi Cerrahpaşa   <span class="date">2017 - Devam ediyor</span></p>
-</div>
-
-<hr>
-<h3> İş Deneyimleri</h3>
-<div class="row">
-    <p><a href="https://www.lastikcim.com.tr/" target="_blank"> Lastikcim.com </a> <span class="date">20.07.2020 - 01.11.2020</span></p>
-</div>
-<div class="row">
-    <pv><a href="https://fabrikod.com/" target="_target">Fabrikod </a>  <span class="date">20.03.2021 - Devam ediyor</span></p>
-
-</div>
-<hr>
-<h3> Teknolojiler ve Yazılım Dilleri</h3>
-
-<div class="row">
-  <div class="column">
-    <i class="fab fa-php"></i>
-
-<p>PHP</p>
-  </div>
-  <div class="column">
-    <i class="fab fa-laravel"></i>
-
-<p>Laravel</p>
-  </div>
-  <div class="column">
-    <i class="fab fa-vuejs"></i>
-
-<p>Vue.js</p>
-  </div>
-  <div class="column">
-    <i class="fab fa-js-square"></i>
-
-<p>Javascript</p>
-  </div>
-  <div class="column">
-    <i class="fab fa-html5"></i>
-<p>HTML5</p>
-  </div>
-  <div class="column">
-    <i class="fab fa-css3-alt"></i>
-<p>CSS</p>
-  </div>
-  <div class="column">
-    <i class="fab fa-java"></i>
-<p>Java</p>
-</div>
- </div>
- <br>
-  <div class="row">
-    <div class="column">
-      <i class="fas fa-database"></i>
-      <p>MySQL</p>
-    </div>
-    <div class="column">
-      <i class="fas fa-fire"></i>
-
-<p>Firebase</p>
-    </div>
-    <div class="column">
-      <i class="fab fa-android"></i>
-    <p>Android</p>
-    </div>
-    <div class="column">
-      <i class="fab fa-ubuntu"></i>
-      <p>Ubuntu</p>
-    </div>
-    <div class="column">
-      <i class="fab fa-docker"></i>
-    <p>Docker</p>
-    </div>
-    <div class="column">
-      <i class="fab fa-github"></i>
-    <p>Git</p>
-    </div>
-
-  </div>
-  
-
-
-<hr>
-<h3>Projeler ve Kod Örnekleri</h3>
-<div class="row">
-<div class="column">
-  <h5>Web Geliştirmeler</h5>
-  <p>CoinBash <span> <a href= "https://github.com/furkanyldrmm/coinBash"  target="_blank"> <i class="fas fa-code"></i></a> </span></p>
-
-<p>Vue-Laravel CRUD App <span> <a alt="Kaynak kod için tıklayınız" href= "https://github.com/furkanyldrmm/Vue-Laravel-RestApi-CRUD"target="_blank"> <i class="fas fa-code"></i></a> </span></p>
-<p>PHP Telegram Bot <span> <a alt="Kaynak kod için tıklayınız" href= "https://github.com/furkanyldrmm/php-telegramBot"target="_blank"> <i class="fas fa-code"></i></a> </span></p>
-</div>
-<div class="column">
-  <h5>Mobil Geliştirmeler</h5>
-  <p>CoinBash <span> <a href= "https://github.com/furkanyldrmm/coinBash"  target="_blank"> <i class="fas fa-code"></i></a> </span></p>
-
-<p>Vue-Laravel CRUD App <span> <a alt="Kaynak kod için tıklayınız" href= "https://github.com/furkanyldrmm/Vue-Laravel-RestApi-CRUD"target="_blank"> <i class="fas fa-code"></i></a> </span></p>
-<p>PHP Telegram Bot <span> <a alt="Kaynak kod için tıklayınız" href= "https://github.com/furkanyldrmm/php-telegramBot"target="_blank"> <i class="fas fa-code"></i></a> </span></p>
-</div>
-
-
-</div>
-
-</div>
-
-</div>
-</div>
-</div>
-         
       </div>
+      <div class="resim">
+        <img src="indir.png" style="width: 200px; height: 200px" />
+      </div>
+      <div class="content">
+        <div class="left">
+          <div class="about">
+            <h3>Hakkımda</h3>
+            <p style="padding: 5px; font-size: 15px">
+              Yeni teknolojilerle çalışmayı seven hem arka tarafta hemde ön
+              tarafta geliştirmeler yapan bir Web developer adayıyım
+            </p>
+          </div>
+          <hr />
+
+          <div>
+            <h3>Yabancı Diller</h3>
+            <p>
+              İngilizce <i class="fas fa-star"></i>
+
+              <i class="fas fa-star"></i>
+
+              <i class="fas fa-star"></i>
+
+              <i class="fas fa-star"></i>
+
+              <i class="far fa-star"></i>
+            </p>
+            <p>
+              Almanca <i class="fas fa-star"></i>
+
+              <i class="far fa-star"></i>
+
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+
+              <i class="far fa-star"></i>
+            </p>
+            <hr />
+            <h3>Hesaplar</h3>
+            <p>
+              GitHub
+              <span>
+                <a href="https://github.com/furkanyldrmm" target="_blank">
+                  <i class="fas fa-eye"></i
+                ></a>
+              </span>
+            </p>
+            <p>
+              HackerRank <span><i class="fas fa-eye"></i> </span>
+            </p>
+            <p>
+              Linkedin
+              <a
+                href="https://www.linkedin.com/in/furkan-y%C4%B1ld%C4%B1r%C4%B1m-7471b6173/"
+                target="_blank"
+              >
+                <i class="fas fa-eye"></i
+              ></a>
+            </p>
+            <hr />
+            <h3>Sertifikalar</h3>
+            <p>
+              GitHub <span> <i class="fas fa-eye"></i> </span>
+            </p>
+            <p>
+              HackerRank <span><i class="fas fa-eye"></i> </span>
+            </p>
+            <p>Linkedin <i class="fas fa-eye"></i></p>
+          </div>
+        </div>
+        <div class="right">
+          <h3>İletişim</h3>
+
+          <div class="row">
+            <p><span class="label"> Tel:</span> +90 555-55-55</p>
+            <p><span class="label">Mail:</span> furkan98yldrm@gmail.com</p>
+          </div>
+          <hr />
+
+          <h3>Eğitim</h3>
+          <div class="row">
+            <p>
+              Bilgisayar Mühendisliği-İstanbul Üniversitesi Cerrahpaşa
+              <span class="date">2017 - Devam ediyor</span>
+            </p>
+          </div>
+
+          <hr />
+          <h3>İş Deneyimleri</h3>
+          <div class="row">
+            <p>
+              <a href="https://www.lastikcim.com.tr/" target="_blank">
+                Lastikcim.com
+              </a>
+              <span class="date">20.07.2020 - 01.11.2020</span>
+            </p>
+          </div>
+          <div class="row">
+            <p>
+              <a href="https://fabrikod.com/" target="_target">Fabrikod </a>
+              <span class="date">20.03.2021 - Devam ediyor</span>
+            </p>
+          </div>
+          <hr />
+          <h3>Teknolojiler ve Yazılım Dilleri</h3>
+
+          <div class="row">
+            <div class="column">
+              <i class="fab fa-php"></i>
+
+              <p>PHP</p>
+            </div>
+            <div class="column">
+              <i class="fab fa-laravel"></i>
+
+              <p>Laravel</p>
+            </div>
+            <div class="column">
+              <i class="fab fa-vuejs"></i>
+
+              <p>Vue.js</p>
+            </div>
+            <div class="column">
+              <i class="fab fa-js-square"></i>
+
+              <p>Javascript</p>
+            </div>
+            <div class="column">
+              <i class="fab fa-html5"></i>
+              <p>HTML5</p>
+            </div>
+            <div class="column">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="column">
+              <i class="fab fa-java"></i>
+              <p>Java</p>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="column">
+              <i class="fas fa-database"></i>
+              <p>MySQL</p>
+            </div>
+            <div class="column">
+              <i class="fas fa-fire"></i>
+
+              <p>Firebase</p>
+            </div>
+            <div class="column">
+              <i class="fab fa-android"></i>
+              <p>Android</p>
+            </div>
+            <div class="column">
+              <i class="fab fa-ubuntu"></i>
+              <p>Ubuntu</p>
+            </div>
+            <div class="column">
+              <i class="fab fa-docker"></i>
+              <p>Docker</p>
+            </div>
+            <div class="column">
+              <i class="fab fa-github"></i>
+              <p>Git</p>
+            </div>
+          </div>
+
+          <hr />
+          <h3>Projeler ve Kod Örnekleri</h3>
+          <div class="row">
+            <div class="column">
+              <h5>Web Geliştirmeler</h5>
+              <p>
+                CoinBash
+                <span>
+                  <a
+                    href="https://github.com/furkanyldrmm/coinBash"
+                    target="_blank"
+                  >
+                    <i class="fas fa-code"></i
+                  ></a>
+                </span>
+              </p>
+
+              <p>
+                Vue-Laravel CRUD App
+                <span>
+                  <a
+                    href="https://github.com/furkanyldrmm/Vue-Laravel-RestApi-CRUD"
+                    target="_blank"
+                  >
+                    <i class="fas fa-code"></i
+                  ></a>
+                </span>
+              </p>
+              <p>
+                PHP Telegram Bot
+                <span>
+                  <a
+                    href="https://github.com/furkanyldrmm/php-telegramBot"
+                    target="_blank"
+                  >
+                    <i class="fas fa-code"></i
+                  ></a>
+                </span>
+              </p>
+              <p>
+                Stripe Payment Laravel
+                <span>
+                  <a
+                    href="https://github.com/furkanyldrmm/Stripe-payment-laravel"
+                    target="_blank"
+                  >
+                    <i class="fas fa-code"></i
+                  ></a>
+                </span>
+              </p>
+              <p>
+                Blog Site
+                <span>
+                  <a
+                    href="https://github.com/furkanyldrmm/BlogSite"
+                    target="_blank"
+                  >
+                    <i class="fas fa-code"></i
+                  ></a>
+                </span>
+              </p>
+            </div>
+            <div class="column">
+              <h5>Mobil Geliştirmeler</h5>
+              <p>
+                Uni Notes
+                <span>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.yildirimsoftware.notumolsun&hl=en_US&gl=US"
+                    target="_blank"
+                  >
+                    <i class="fab fa-google-play"></i>
+                  </a>
+                </span>
+              </p>
+
+              <p>
+                Rainbow Wheel
+                <span>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.furkanyldrm.renkbul&hl=en_US&gl=US"
+                    target="_blank"
+                  >
+                    <i class="fab fa-google-play"></i>
+                  </a>
+                </span>
+              </p>
+              <p>
+                Stajyerim
+                <span>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.furkansoftware.stajyerim&hl=en_US&gl=US"
+                    target="_blank"
+                  >
+                    <i class="fab fa-google-play"></i>
+                  </a>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script>
       $(function () {
