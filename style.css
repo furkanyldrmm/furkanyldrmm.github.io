@@ -16,14 +16,14 @@ h5 {
   margin-top: 0px;
   margin-bottom: 4px;
 }
-.contact {
+.main {
   margin: auto;
   width: 50%;
   text-align: center;
   border-radius: 10px;
   border: 1px solid #ccc;
 }
-.contact:hover {
+.main:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
@@ -150,7 +150,7 @@ a:hover {
   .about {
     margin-top: 60px;
   }
-  .contact {
+  .main {
     width: 100%;
   }
   .resim {
