@@ -65,6 +65,9 @@ img {
   display: flex;
   color: white;
 }
+.center {
+  text-align: center;
+}
 .column {
   align-items: center;
   display: flex;
